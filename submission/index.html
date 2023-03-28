@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" href="cssindex.css" />
+<title> 
+Tutorial 2 (hi cat)
+</title>
+<style>
+    .center {text-align: center;
+             list-style-position: inside;}
+
+    .left {text-align: left;
+             list-style-position: inside;}
+
+    .right {text-align: right;
+             list-style-position: inside;}
+
+    .alphalist{list-style-type: upper-alpha;
+    }
+
+    .times{font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    }
+
+    .redwhite {
+        background-color: red !important;
+        color: white ;
+    }
+
+</style>
+</head>
+
+<ol>
+    
+    <li> Create a HTML page that displays the exact same output. Make sure you stick to the standards, for example the &lt;br\&gt; tag is closed. Also check whether your tags are 
+    paired, for example, there should be one &lt;p&gt; tag for every &lt;p&gt; tag. </li> 
+    
+    <br>
+
+    <li> <b> This note is in bold </b> </li>  <br>
+    
+    <div class="center"> <p> <li> This is the first centered paragraph. </li>  </p> </div>
+
+    <p> <li> This is the second paragraph. It appears on the left. </li> </p> 
+
+    <div class="right"> <p> <li> This is the third paragraph, It appears on the right. </li> </p> </div>
+
+     <h3> <li>This is a level 3 heading. </h3></li> 
+
+     <div class="right"> <h5> <li> This is a level 5 heading. </h5> </li> </div>
+
+     <li> Below is a horizontal line with 50% width with respect to the browser text. </li> 
+     <br>
+     <hr style="width:50%;text-align:center">
+
+     <li> Below is a horizontal line which is 100 pixels wide. </li> <br>
+     <hr style="width:100px;text-align:center">
+
+     <img src="cat.jpg" alt="no cat" style="width:500px; float:right; margin-left:1px"> 
+     <li> Now this is a little tough. The image is displayed on the right side and the text on the left side. This is done using
+        using the "img" tag but you can use other tags to get the same output. The image has to be 500 pixels wide. 
+     </li>
+      <br>
+
+     <li> <a href="https://www.google.com/"> Click here to go to Google. </a> </li>
+
+     <li>
+        Lists: 
+            <ol> <div class="alphalist">
+            <li> Item 1</li>
+            <li> Item 2 </li>
+            <ol style="list-style-type: upper-roman;">
+                <li> Item 2.1 </li>
+                <li> Item 2.2 </li>
+                <li>    <ol> <li> Item 2.3.1 </li>
+                    <li> Item 2.3.2 </li>
+                    <li> Item 2.3.3 </li>
+            </li>
+            </ol>
+            </ol>
+            </ol> </div>
+
+            <br>
+
+            <ul style="list-style-type: disc">
+            <li> Item 1 </li>
+            <li> Item 2 </li>
+                <ul style="list-style-type: circle">
+                    <li> Item 2.1 </li>
+                    <li> Item 2.2 </li>
+                    <li> 
+                        <ul>
+                            <li> Item 2.3.1 </li>
+                            <li> Item 2.3.2 </li>
+                            <li> Item 2.3.3 </li>
+                        </ul>
+                    </li>
+                </ul>
+            </ul>
+     </li>
+
+     <br>
+
+     <li> Subscripts: K<sub>2</sub>SO<sub>4</sub>.Al<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub>.24H<sub>2</sub>O</li>
+
+<pre style="margin-left:3em">
+<li>    This 
+                entire 
+                            line 
+            is 
+            written 
+                        without    using 
+    any 
+                        special 
+    character. Only one     
+                            tag 
+    can help do this.  
+</pre> </li>
+
+
+<div class="times"> <li> This is written using the font "times" and is 30 pixels big. </li> </div> <br>
+<li>Simple table</li>
+<br>
+<table style="margin-left: -2em"> 
+    <th> Column 1</th>
+    <th> Column 2</th>
+    <tr>
+        <td> 1.1 </td>
+        <td> 1.2 </td>
+    </tr>
+    <tr>
+        <td> 2.1 </td>
+        <td> 2.2 </td>
+    </tr>
+</table>
+
+<br>
+
+<li> Weird table </li>
+<br>
+<table style="margin-left: -2em">
+    <td rowspan="2"><b><u>something</u></b></td>
+    <th>something else</th>
+    <th style="background-color:black; color: white; ">no idea</th>
+    <tr>
+        <td colspan="2" style="text-align: center"> <b> its morbin time </b> </td>
+    </tr>
+</table>
+ 
+<p style="background-color: red; color: white; margin-left: -2em"> 18. Add some colors! This line has a red background and a white foreground. </p> 
+
+</ol>
+
+</html>
